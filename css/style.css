@@ -136,6 +136,22 @@ section {
 .home-content .social-media a:hover {
   background: var(--main-color);
   color: var(--white-color);
+  
+}
+.bxl-linkedin {
+  color: #0097e6;
+}
+.bxl-facebook{
+color: #0097e6;
+}
+.bxl-instagram-alt{
+color: #e84393;
+}
+.bxl-twitter{
+color: #0097e6;
+}
+.bxl-youtube{
+  color: #e84118;
 }
 .btn {
   display: inline-block;
