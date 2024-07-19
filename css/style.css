@@ -611,6 +611,16 @@ span {
   }
 }
 @media (max-width: 768px) {
+  .navbar {
+    /* Add these properties for the transition effect */
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-100%);
+  }
+
+  .navbar.active {
+    transform: translateY(0);
+  }
+}
   #menu-icon {
     display: block;
   }
